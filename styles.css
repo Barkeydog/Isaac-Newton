@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background for the whole page */
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  /* Rainbow gradient for text */
+  section {
+    background: linear-gradient(4500000deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #8b00ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
